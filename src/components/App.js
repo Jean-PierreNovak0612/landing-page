@@ -5,6 +5,8 @@ import Header from './Header'
 
 const App = () => {
 
+    const IMG_URL = `${process.env.PUBLIC_URL}/images/logo.png`;
+
     const LINKS = [
         {
             link: 'HOME',
@@ -18,11 +20,56 @@ const App = () => {
 
     return (
         <Router>
-            <Header links={LINKS} />
+            <Header links={LINKS} imageLogo={IMG_URL} />
             <Switch>
                 {/* <Route path="/" component={} />
                 <Route path="/contact" component={} /> */}
             </Switch>
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
         </Router>
     )
 };
