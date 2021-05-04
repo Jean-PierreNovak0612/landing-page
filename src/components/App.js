@@ -11,11 +11,11 @@ const App = () => {
     const LINKS = [
         {
             link: 'HOME',
-            path: '/'
+            path: '/landing-page/'
         },
         {
             link: 'Contact',
-            path: '/contact'
+            path: '/landing-page/contact'
         }
     ];
 
