@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 import '../css/Header.css';
 
-const Header = ({ links, imageLogo = '', textLogo = 'Logo' }) => {
+const Header = ({ links, imageLogo = '', textLogo = '' }) => {
 
     const [showNavColor, setShowNavColor] = useState(window.innerWidth <= 700);
 
-    const showNavBg = showNavColor ? 'bg-light' : '';
+    const showNavBg = showNavColor ? 'bg-nav' : 'bg-light';
 
     useEffect(() => {
         window.addEventListener('resize', () => {
@@ -32,12 +32,18 @@ const Header = ({ links, imageLogo = '', textLogo = 'Logo' }) => {
     const renderLinks = links.map(link => {
         return (
             <li className="nav-item" key={link.link}>
-                <Link className="nav-link" to={link.path}>{link.link}</Link>
+                <Link className="nav-link ms-5 my-2 my-lg-0" to={link.path}>{link.link}</Link>
             </li>
         )
     });
 
     const renderLogo = (imgLogo, txtLogo) =>{
+        if(imgLogo && txtLogo) return (
+            <>
+                <img className="img-logo ms-5" src={imgLogo} alt="logo" />
+                <small className="txt-logo">{txtLogo}</small>
+            </>
+        )
         if(imgLogo) return <img className="img-logo ms-5" src={imgLogo} alt="logo"/>
         return txtLogo;
     }

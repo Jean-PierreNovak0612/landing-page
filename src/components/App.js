@@ -20,7 +20,7 @@ const App = () => {
 
     return (
         <Router>
-            <Header links={LINKS} imageLogo={IMG_URL} />
+            <Header links={LINKS} imageLogo={IMG_URL} textLogo={`Udruga za životinje "Merida"`} />
             <Switch>
                 {/* <Route path="/" component={} />
                 <Route path="/contact" component={} /> */}
@@ -34,6 +34,17 @@ const App = () => {
                <br />
                <br />
                <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br />
+               <br /><br />
                <br />
                <br />
                <br />

@@ -15,6 +15,23 @@
 	height: 50px;
 }
 
-.navbar-background {
-	/* background-color: ; */
+.txt-logo {
+	font-size: 11px;
+	width: 5px;
+}
+
+.bg-nav {
+	background: linear-gradient(45deg, #ef9a61, #fcddc8);
+}
+
+.bg-nav .nav-link {
+	color: #000 !important;
+}
+
+.bg-nav .nav-link:hover {
+	color: #fff !important;
+}
+
+.bg-light {
+	background: rgba(238, 238, 238, 0.5);
 }
