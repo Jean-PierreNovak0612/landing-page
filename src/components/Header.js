@@ -51,7 +51,7 @@ const Header = ({ links, imageLogo = '', textLogo = '' }) => {
     return (
         <nav className={`navbar navbar-expand-lg navbar-light w-100 ${showNavBg}`}>
             <div className="container-fluid">
-                <Link to="/" className="navbar-brand">{renderLogo(imageLogo, textLogo)}</Link>
+                <Link to="/landing-page/" className="navbar-brand">{renderLogo(imageLogo, textLogo)}</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
