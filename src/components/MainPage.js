@@ -4,12 +4,12 @@ import CoverImage from './CoverImage';
 
 const MainPage = () => {
 
-    const IMG_URL = `${process.env.PUBLIC_URL}/images/dogo.jpg`
-    const BUTTON_TEXT = "Let's go ->"
+    const COVER_IMG_URL = `${process.env.PUBLIC_URL}/images/dogo.jpg`;
+    const BUTTON_TEXT = "Let's go ->";
 
     return (
         <div>
-            <CoverImage image={IMG_URL} buttonText={BUTTON_TEXT}  />
+            <CoverImage image={COVER_IMG_URL} buttonText={BUTTON_TEXT}  />
         </div>
     )
 }

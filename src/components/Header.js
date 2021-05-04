@@ -15,7 +15,7 @@ const Header = ({ links, imageLogo = '', textLogo = '' }) => {
         }, false);
 
         window.addEventListener('scroll', () =>{
-            return setShowNavColor(window.scrollY >= 500 || window.innerWidth <=990)
+            return setShowNavColor(window.scrollY >= 450 || window.innerWidth <=990)
         }, false)
 
         return () => {
@@ -24,7 +24,7 @@ const Header = ({ links, imageLogo = '', textLogo = '' }) => {
             }, false);
 
             window.addEventListener('scroll', () =>{
-                return setShowNavColor(window.scrollY >= 500 || window.innerWidth <=990)
+                return setShowNavColor(window.scrollY >= 450 || window.innerWidth <=990)
             }, false)
         }
     }, [])
