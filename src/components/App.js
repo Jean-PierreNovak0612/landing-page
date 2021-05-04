@@ -23,7 +23,7 @@ const App = () => {
         <Router>
             <Header links={LINKS} imageLogo={IMG_URL} textLogo={`Udruga za životinje "Merida"`} />
             <Switch>
-                <Route path="/" exact component={MainPage} />
+                <Route path="/landing-page/" exact component={MainPage} />
                 {/* <Route path="/contact" component={} /> */}
             </Switch>
         </Router>
