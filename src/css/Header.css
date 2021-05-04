@@ -1,14 +1,17 @@
 .navbar {
 	position: fixed;
 	top: 0;
+	z-index: 20;
 }
 
 .navbar-brand {
+	user-select: none !important;
 	font-weight: bolder !important;
 }
 
 .nav-link {
 	font-weight: bold !important;
+	user-select: none !important;
 }
 
 .img-logo {
@@ -24,7 +27,7 @@
 	background: linear-gradient(45deg, #ef9a61, #fcddc8);
 }
 
-.bg-nav .nav-link {
+.nav-link {
 	color: #000 !important;
 }
 
@@ -33,5 +36,11 @@
 }
 
 .bg-light {
-	background: rgba(238, 238, 238, 0.5);
+	background: rgba(238, 238, 238, 0.5) !important;
+}
+
+@media (max-width: 768px) {
+	.img-logo {
+		height: 30px;
+	}
 }

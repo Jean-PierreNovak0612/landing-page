@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 import Header from './Header'
+import MainPage from './MainPage';
 
 const App = () => {
 
@@ -22,65 +23,9 @@ const App = () => {
         <Router>
             <Header links={LINKS} imageLogo={IMG_URL} textLogo={`Udruga za životinje "Merida"`} />
             <Switch>
-                {/* <Route path="/" component={} />
-                <Route path="/contact" component={} /> */}
+                <Route path="/" exact component={MainPage} />
+                {/* <Route path="/contact" component={} /> */}
             </Switch>
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br /><br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
-               <br />
         </Router>
     )
 };
