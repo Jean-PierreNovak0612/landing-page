@@ -8,16 +8,15 @@ const Footer = ({ social = [] }) => {
 
     const renderSocialMedia = social.map(media => {
         return(
-            <a className="mx-auto d-block" key={media.title} target="_blank" href={media.link}><i className={`bi bi-${media.title}`}></i> {media.title}</a>
+            <a className="mx-3 d-block d-lg-inline-block mt-5" key={media.title} target="_blank" href={media.link}><i className={`bi bi-${media.title}`}></i></a>
         )
     })
 
     return (
-        <div className="footer">
+        <div className="footer bg-light">
             <div className="info">
                 {renderSocialMedia}
-                <span className="mx-auto d-block"><i className="bi bi-envelope-open-fill"></i> udrugamerida@gmail.com</span>
-                <span className="mx-auto d-block"><i className="bi bi-telephone-fill"></i> +385 91 646 8238</span>
+                <a href="mailto:udrugamerida@gmail.com" className="mx-3 d-block d-lg-inline-block mt-5"><i className="bi bi-envelope-open-fill"></i></a>
             </div>
             <p className="copy">Copyright &copy; 2021 - {currentYear}</p>
         </div>

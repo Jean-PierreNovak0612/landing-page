@@ -1,6 +1,5 @@
 .footer {
 	height: 150px;
-	background: linear-gradient(45deg, #ef9a61, #fcddc8);
 	position: relative;
 }
 
@@ -15,7 +14,21 @@
 
 .info {
 	position: absolute;
-	top: 20px;
 	left: 50%;
 	transform: translateX(-50%);
+}
+
+a i {
+	font-size: 25px;
+	color: #ef9a61;
+	text-decoration: none;
+	border: 2px solid #ef9a61;
+	padding: 10px 15px;
+	border-radius: 100%;
+}
+
+@media (max-width: 990px) {
+	.footer {
+		height: 250px;
+	}
 }
