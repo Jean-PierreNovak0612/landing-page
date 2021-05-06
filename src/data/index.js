@@ -1,0 +1,1 @@
+export const TEXT1 = "Mi smo dobrotvorna udruga za pomoć i unaprijeđivanje života životinja. Bavimo se udomljavanjem i edukacijom javnosti o psima, mačkama i ostalim kućnim ljubimcima, te pomažemo drugim životinjama ovisno o znanju i mogućnostima."

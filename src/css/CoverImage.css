@@ -11,31 +11,13 @@
 	position: relative;
 }
 
-.GoToNextComponent {
+.cover-text {
 	position: absolute;
-	bottom: 50px;
-	color: #000;
-	left: 50%;
-	transform: translateX(-50%);
-	text-decoration: none;
-	padding: 5px 20px;
-	font-weight: bolder;
-	background: linear-gradient(
-		45deg,
-		rgba(239, 154, 97, 0.7),
-		rgba(252, 221, 200, 0.7)
-	);
-	border: 2px solid #000;
-	border-radius: 50px;
-}
-
-.GoToNextComponent:hover {
-	background: linear-gradient(
-		45deg,
-		rgba(239, 154, 97, 1),
-		rgba(252, 221, 200, 1)
-	);
 	color: white;
+	bottom: 0;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
 }
 
 @media (max-width: 990px) {

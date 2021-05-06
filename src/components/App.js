@@ -23,7 +23,7 @@ const App = () => {
             path: '/landing-page/'
         },
         {
-            link: 'Contact',
+            link: 'Kontakt',
             path: '/landing-page/contact'
         }
     ];
@@ -35,7 +35,7 @@ const App = () => {
                 <Route path="/landing-page/" exact component={MainPage} />
                 {/* <Route path="/contact" component={} /> */}
             </Switch>
-            <Footer social={SOCIAL} />
+            <Footer className="bottom-position" social={SOCIAL} />
         </Router>
     )
 };

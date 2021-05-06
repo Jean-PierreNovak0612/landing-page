@@ -40,7 +40,7 @@ const Header = ({ links, imageLogo = '', textLogo = '' }) => {
     const renderLogo = (imgLogo, txtLogo) =>{
         if(imgLogo && txtLogo) return (
             <>
-                <img className="img-logo ms-5" src={imgLogo} alt="logo" />
+                <img className="img-logo ms-0 ms-sm-5" src={imgLogo} alt="logo" />
                 <small className="txt-logo">{txtLogo}</small>
             </>
         )

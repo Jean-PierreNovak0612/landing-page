@@ -1,13 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import '../css/CoverImage.css';
 
-const CoverImage = ({ image, buttonText }) => {
+const CoverImage = ({ image, text }) => {
     return (
         <div className="cover-container">
             <div className="img-cover mt-5 mt-lg-0" style={{ backgroundImage: `url(${image})`}}></div>
-            <Link to="/landing-page/" className="GoToNextComponent">{buttonText}</Link>
+            <div className="cover-text">
+                <h1>{text}</h1>
+            </div>
         </div>
     )
 }
