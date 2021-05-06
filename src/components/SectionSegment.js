@@ -31,7 +31,7 @@ const SectionSegment = ({ image = "", imagePosition = "left" ,  header = "Header
 
     const renderContentWithNoImage = (head, txt) => {
         return (
-            <div className="w-100">
+            <div className="content-center">
                 <div className="text-center">
                     <h3>{head}</h3>
                     <p>{txt}</p>
