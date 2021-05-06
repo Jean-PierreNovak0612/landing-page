@@ -17,20 +17,9 @@ const App = () => {
         }
     ]
 
-    const LINKS = [
-        {
-            link: 'HOME',
-            path: '/landing-page/'
-        },
-        {
-            link: 'Kontakt',
-            path: '/landing-page/contact'
-        }
-    ];
-
     return (
         <Router>
-            <Header links={LINKS} imageLogo={IMG_URL} textLogo={`Udruga za životinje "Merida"`} />
+            <Header imageLogo={IMG_URL} textLogo={`Udruga za životinje "Merida"`} />
             <Switch>
                 <Route path="/landing-page/" exact component={MainPage} />
                 {/* <Route path="/contact" component={} /> */}

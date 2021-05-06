@@ -6,7 +6,6 @@ const SectionSegment = ({ image = "", imagePosition = "left" ,  header = "Header
 
     const renderContentWithImage = (img, imgPos, head, txt) => {
         if(imgPos === 'left' || imgPos === 'center'){
-            console.log(img)
             return (
                 <div className="image-text-container">
                     <div style={{ backgroundImage: `url(${img})`}} className="image-left" >
