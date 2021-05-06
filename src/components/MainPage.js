@@ -2,7 +2,7 @@ import React from 'react';
 
 import CoverImage from './CoverImage';
 import SectionSegment from './SectionSegment'
-import { TEXT1 } from '../data'
+import { TEXT1, TEXT2 } from '../data'
 
 const MainPage = () => {
 
@@ -18,7 +18,7 @@ const MainPage = () => {
         <div>
             <CoverImage image={COVER_IMG_URL} text={COVER_TEXT} />
             <SectionSegment id="start" image={IMG_URL_SECTION1} imagePosition="left" header={HEADER1} text={TEXT1} />
-            {/* <SectionSegment image={IMG_URL_SECTION2} imagePosition="right" header={HEADER2} /> */}
+            <SectionSegment image={IMG_URL_SECTION2} imagePosition="right" header={HEADER2} text={TEXT2} />
         </div>
     )
 }

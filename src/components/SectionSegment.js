@@ -19,13 +19,11 @@ const SectionSegment = ({ image = "", imagePosition = "left" ,  header = "Header
             )
         }
         return (
-            <div className="row w-100 p-0">
-                <div className="col-6 text-center">
-                    <h3>{head}</h3>
+            <div className="image-text-container">
+                <div style={{ backgroundImage: `url(${img})`}} className="image-right"></div>
+                <div className="image-text-right">
+                    <h2>{head}</h2>
                     <p>{txt}</p>
-                </div>
-                <div className="col-6">
-                    <img className="section-images" src={img} alt="image" />
                 </div>
             </div>
         )
