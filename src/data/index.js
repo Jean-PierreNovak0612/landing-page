@@ -8,8 +8,8 @@ export const SOCIAL = [
     }
 ]
 
-export const TEXT1 = "Mi smo dobrotvorna udruga za pomoć i unaprijeđivanje života životinja. Bavimo se udomljavanjem i edukacijom javnosti o psima, mačkama i ostalim kućnim ljubimcima, te pomažemo drugim životinjama ovisno o znanju i mogućnostima."
+export const TEXT1 = "Mi smo dobrotvorna udruga za pomoć životinjama i unapređivanje njihova života. Bavimo se udomljavanjem i edukacijom javnosti o psima, mačkama i ostalim kućnim ljubimcima, te pomažemo drugim životinjama ovisno o znanju i mogućnostima."
 
-export const TEXT2 = "Nakon osnivanja 2016-te godine, pronašli smo domove mnogim dlakavim prijateljima, te time im omogućili bolji i kvalitetniji život. Dobili smo veliku potporu zajednice, što je ujedno i pomoglo rastu naše udruge"
+export const TEXT2 = "Nakon osnivanja 2016. godine, pronašli smo domove mnogim dlakavim prijateljima, te im time omogućili bolji i kvalitetniji život. Dobili smo veliku potporu zajednice, što je ujedno i pomoglo rastu naše udruge"
 
-export const TEXT3 = "Naša udruga i dalje raste te će rasti za sva vremena. Pridruži nam se i ti! Garantiramo da će naši dlakavi prijatelji biti zahvalni na tvojoj pomoći. Pridružit nam se možete preko kontakt obrasca ili preko naše Facebook stranice "
+export const TEXT3 = "Naša udruga i dalje raste te će rasti za sva vremena. Pridruži nam se i ti! Garantiramo da će naši dlakavi prijatelji biti zahvalni na tvojoj pomoći. Pridružiti nam se možete preko kontakt obrasca ili preko naše Facebook stranice "
