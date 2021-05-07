@@ -39,7 +39,8 @@
 }
 
 .image-text-right {
-	top: -150px;
+	top: -100px;
+	width: 50%;
 	right: 35%;
 	padding: 10px 160px 10px 30px;
 }
