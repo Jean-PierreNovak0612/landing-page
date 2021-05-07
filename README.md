@@ -5,7 +5,7 @@ The page is responsive and will show correctly on all platforms.
 
 You can find the working version of the page:
 
--[here](https://jean-pierrenovak0612.github.io/landing-page/)
+- [here](https://jean-pierrenovak0612.github.io/landing-page/)
 
 or you can clone this repository, download the necessary packages by using the command:
 
