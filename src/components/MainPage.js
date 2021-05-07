@@ -3,6 +3,7 @@ import React from 'react';
 import CoverImage from './CoverImage';
 import SectionSegment from './SectionSegment'
 import { TEXT1, TEXT2, TEXT3} from '../data'
+import Contact from './Contact';
 
 const MainPage = () => {
 
@@ -20,6 +21,7 @@ const MainPage = () => {
             <SectionSegment id="start" image={IMG_URL_SECTION1} imagePosition="left" header={HEADER1} text={TEXT1} />
             <SectionSegment image={IMG_URL_SECTION2} imagePosition="right" header={HEADER2} text={TEXT2} />
             <SectionSegment header={HEADER3} text={TEXT3} />
+            <Contact />
         </div>
     )
 }

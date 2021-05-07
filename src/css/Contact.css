@@ -1,0 +1,67 @@
+.contact {
+	width: 90%;
+	margin: 0 auto 20px;
+	padding: 40px;
+	background-color: #eee;
+	border: 1px solid #000;
+	border-radius: 20px;
+}
+
+.form-label {
+	font-weight: bolder !important;
+	font-size: 16px !important;
+}
+
+.inputs {
+	width: 45%;
+	display: inline-block;
+	margin: 0 30px;
+}
+
+.textarea {
+	height: 100px;
+	resize: none;
+}
+
+.submit {
+	margin: 20px 30px;
+}
+
+.not-sent {
+	display: none;
+}
+
+.sent {
+	border: 2px solid green;
+	padding: 10px;
+	text-align: center;
+	color: green;
+	margin: 20px 30px;
+	background-color: rgb(182, 255, 182);
+	opacity: 0;
+	animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 0;
+	}
+}
+
+@media (max-width: 990px) {
+	.inputs {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+
+	.submit {
+		margin-left: 0;
+	}
+}

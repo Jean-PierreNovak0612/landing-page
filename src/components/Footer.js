@@ -8,7 +8,7 @@ const Footer = ({ social = [] }) => {
 
     const renderSocialMedia = social.map(media => {
         return(
-            <a className="mx-3 d-block d-lg-inline-block mt-5" key={media.title} target="_blank" href={media.link}><i className={`bi bi-${media.title}`}></i></a>
+            <a className="mx-3 d-block d-lg-inline-block mt-5" key={media.title} target="_blank" rel="noreferrer" href={media.link}><i className={`bi bi-${media.title}`}></i></a>
         )
     })
 
