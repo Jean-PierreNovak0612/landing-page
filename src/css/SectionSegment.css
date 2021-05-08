@@ -57,6 +57,10 @@
 	margin: 0 auto;
 }
 
+.content-center p {
+	margin: 0 auto;
+}
+
 @media (max-width: 770px) {
 	.image-left,
 	.image-right {

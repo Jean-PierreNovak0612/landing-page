@@ -6,6 +6,8 @@ import MainPage from './MainPage';
 import Footer from './Footer';
 import { IMG_URL, SOCIAL} from '../data';
 
+import '../css/style.css';
+
 const App = () => {
 
     return (
