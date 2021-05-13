@@ -12,19 +12,9 @@
 	font-size: 16px !important;
 }
 
-.inputs {
-	width: 45%;
-	display: inline-block;
-	margin: 0 30px;
-}
-
 .textarea {
 	height: 100px;
 	resize: none;
-}
-
-.submit {
-	margin: 20px 30px;
 }
 
 .not-sent {
@@ -32,12 +22,6 @@
 }
 
 .sent {
-	border: 2px solid green;
-	padding: 10px;
-	text-align: center;
-	color: green;
-	margin: 20px 30px;
-	background-color: rgb(182, 255, 182);
 	opacity: 0;
 	animation: fadeIn 2s;
 }

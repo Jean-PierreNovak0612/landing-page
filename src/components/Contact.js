@@ -33,18 +33,14 @@ const Contact = () => {
     return (
         <div className="contact">
             <form onSubmit={sendEmail}>
-                <div className="inputs">
-                    <label htmlFor="name" className="form-label">Puno ime:</label>
-                    <input value={name} onChange={e => setName(e.target.value)} id="name" className="form-control" autoComplete="off" type="text" placeholder="John Doe" required="required" name="name" />
-                    <label htmlFor="name" className="form-label">Email:</label>
-                    <input value={email} onChange={e => setEmail(e.target.value)} id="email" className="form-control" autoComplete="off" type="email" placeholder="johndoe@gmail.com" required="required" name="email" />
-                </div>
-                <div className="inputs">
-                    <label className="form-label">Poruka:</label>
-                    <textarea value={message} onChange={e => setMessage(e.target.value)} className="form-control textarea" placeholder="Unesite svoju poruku" required="required" name="message" />
-                </div>
-                <div className={confirm}>Poslano!</div>
-                <button type="submit" className="btn btn-primary submit">Pošalji</button>
+                <label htmlFor="name" className="form-label">Puno ime:</label>
+                <input value={name} onChange={e => setName(e.target.value)} id="name" className="form-control" autoComplete="off" type="text" placeholder="John Doe" required="required" name="name" />
+                <label htmlFor="name" className="form-label">Email:</label>
+                <input value={email} onChange={e => setEmail(e.target.value)} id="email" className="form-control" autoComplete="off" type="email" placeholder="johndoe@gmail.com" required="required" name="email" />
+                <label className="form-label">Poruka:</label>
+                <textarea value={message} onChange={e => setMessage(e.target.value)} className="form-control textarea" placeholder="Unesite svoju poruku" required="required" name="message" />
+                <div className={`${confirm} alert alert-success text-center py-2 my-2   `}>Poslano!</div>
+                <button type="submit" className="btn btn-primary submit mt-2">Pošalji</button>
             </form>
         </div>
     )
